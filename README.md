@@ -1,1 +1,4 @@
 # StackedAutoencoder
+This repository contains code for a stacked autoencoder for digit classification. The code is very similar to the self-taught learning code, in which we trained a digit classifier using a autoencoder layer followed by a softmax layer. The only difference in this code is that we will be using two autoencoder layers instead of one and further finetune the two layers. The model has been trained on MNIST dataset. The dataset can be downloaded from http://deeplearning.stanford.edu/wiki/index.php/Exercise:_Implement_deep_networks_for_digit_classification
+
+For more information please refer to above link.
